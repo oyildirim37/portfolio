@@ -1,0 +1,38 @@
+{
+  "name": "r3f-vite-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@react-three/drei": "9.75.0",
+    "@react-three/fiber": "^8.15.15",
+    "@types/three": "0.152.1",
+    "@uidotdev/usehooks": "^2.4.1",
+    "autoprefixer": "^9.8.8",
+    "framer-motion": "^11.0.3",
+    "framer-motion-3d": "^11.0.3",
+    "gsap": "^3.12.5",
+    "postcss": "^7.0.39",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.153.0",
+    "yarn": "^1.22.21"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "vite": "^4.5.2"
+  },
+  "description": "A boilerplate to build R3F projects",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
+}
